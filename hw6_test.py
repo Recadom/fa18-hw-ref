@@ -8,7 +8,7 @@ class tester_find_ring(unittest.TestCase):
 		self.assertEquals(find_ring_size(input), 2)
 
 		input2 = [1,2,3,4,0]
-		self.assertEquals(find_ring_size(input), 5)
+		self.assertEquals(find_ring_size(input2), 5)
 
 class tester_matrix_binary_search(unittest.TestCase):
 	def test_given(self):

@@ -188,7 +188,7 @@ The same applies for L[3] = 4. So, return_array[3] = -1
 
 However, if d = 3
 
-mcKing(L, d) would return the array [1, -1, -1, -1]
+mcKing(L, d) would return the array [2, -1, -1, -1]
 
 d will be positive.
 
