@@ -40,7 +40,7 @@ class tester_next_greatest(unittest.TestCase):
 
 class tester_mc_king(unittest.TestCase):
 	def test_given(self):
-		self.assertEquals(mcking([0,2,3,4], 2), [1,2,-1,-1])
+		self.assertEquals(mcking([0,2,3,4], 2), [1,3,-1,-1])
 		self.assertEquals(mcking([0,2,3,4], 3), [2,-1,-1,-1])
 
 class tester_eval_exp(unittest.TestCase):
