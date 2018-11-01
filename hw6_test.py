@@ -45,7 +45,7 @@ class tester_mc_king(unittest.TestCase):
 
 class tester_eval_exp(unittest.TestCase):
 	def test_given(self):
-		self.assertEquals(eval_exp('3+4(6*(2-5)) - 127'), -129)
+		self.assertEquals(eval_exp('3+4(6*(2-5)) - 127'), -196)
 		self.assertEquals(eval_exp('1+1'), 2)
 #===================================
 
