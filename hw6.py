@@ -141,7 +141,7 @@ Given a list of integers, return a new list composed of the next greater element
 for each index of the original index. 
 More formally, given a list A, return a new list B where B[i] = A[j],
 where j > i and A[j] is the first element greater than A[i]. 
-If there is no such value, B[i] = None.
+If there is no such value, B[i] = -1.
 
 This should run in O(n) time.
 
