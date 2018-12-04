@@ -27,14 +27,14 @@ class tester_almost_product(unittest.TestCase):
 		ex = [[60, 40, 30, 24], [648, 324, 216, -648, 972, -972]]
 		
 		for i in range(len(given)):
-			self.assertEqual(almost_product(given), ex)
+			self.assertEqual(almost_product(given[i]), ex[i])
 
 
 class tester_staircase_ways(unittest.TestCase):
 	
 	def test__given(self):
 		g_sta = [3, 3, 5]
-		g_ste = [0, 1, 2]
+		g_ste = [1, 2, 3]
 		ex = [1, 3, 13]
 		
 		for i in range(len(g_sta)):
